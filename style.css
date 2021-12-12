@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -114,7 +115,7 @@ body {
 }
 .btn{
     width: 450px;
-    height: 160px;
+    height: 140px;
     background:#738ae6;
     border-radius:40px 40px 40px 40px;
     display: inline-block;
@@ -143,11 +144,10 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:grey;
+    background-color:blue;
     transition: .4s;
     border-radius: 35px;
     background: inset 0 0 700px rgba(255, 255, 255, 0.5);
-    filter: blur(2px);
 }
 .switch input{display:none}
 
@@ -162,12 +162,18 @@ body {
     transition: .4s;
     border-radius: 50px;
 }
-input:checked + .slider{
-    background: rgba(243, 115, 255, 0.87);
-    filter: blur(2px);
+input:checked  + .slider{
+    background: rgba(65, 157, 180, 0.4);
+    
     /* background-color: rgba(255, 255, 255, 0.5); */
 
 }
+
+input:checked {
+  background: rgba(65, 157, 180, 0.4);
+  filter: blur(2px);
+}
+
 input:checked + .slider:before{
     transform:translate(50px);
 }

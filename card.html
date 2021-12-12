@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+
+</head>
+<body style="font-family: 'Baloo Tamma 2', cursive;">
+    <h1 class="text-center">Explore APIs</h1>
+    <div class="navigation">
+        <div id="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+    </div>
+    <ul class="nav" id="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+    </ul>
+</div>
+<!-- <button class="gameButton" onclick="history.back()">Go Back</button> -->
+    <div class="container">
+        <div class="card-deck">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="url.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Tiny URL API</h4>
+                    <p class="card-text"><b>The TinyURL API allows you to programmatically access our service to shorten long URLs into TinyURLs. This service lets you shorten long URLs into TinyURLs. This helps in creating an automated link customization.
+                    </b></p>
+                    <a href="https://tinyurl.com/app/dev" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="github.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">GitHub API</h4>
+                    <p class="card-text"><b> GithubAPIs (GithubReST APIs) are the APIs that you can use to interact with GitHub. They allow one to create and manage repositories, branches, issues, pull requests, and many more. For fetching publicly available information (like public repositories, user profiles, etc.), you can call the API. For other actions, you need to provide an authenticated token.</b></p>
+                    <a href="  https://api.github.com/" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="button.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">TWILIO API</h4>
+                    <p class="card-text"><b>Twilio’s APIs (Application Programming Interfaces) power its platform for communications. Behind these APIs is a software layer connecting and optimizing communications networks around the world to allow your users to call and message anyone, globally.The Twilio REST API allows you to query metadata about your account, phone numbers, calls, text messages, and recordings. You can also do some fancy things like initiate outbound calls and send text messages.
+                    </b></p>
+                    <<a href=" https://www.twilio.com/api" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="telegram.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title"> TELEGRAM APIs</h4>
+                    <p class="card-text"><b> TELEGRAM APIs Brief info: Telegram offers two kinds of APIs for developers. The Bot API allows you to easily create programs that use Telegram messages for an interface. The Telegram API and TDLib allow you to build your own customized Telegram clients. You are welcome to use both APIs free of charge.</b></p>
+                    <a href=" https://core.telegram.org/api" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+             <div class="w-100 d-none d-lg-block d-xl-none"><!-- wrap every 4 on lg--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="twitter.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">TWITTER API</h4>
+                    <p class="card-text"><b>The Twitter API enables programmatic access to Twitter in unique and advanced ways. It Taps you into core elements of Twitter like: Tweets, Direct Messages, Spaces, Lists, users, and more.</b></p>
+                    <a href="https://developer.twitter.com/en/docs/twitter-api" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-xl-block"><!-- wrap every 5 on xl--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="facebook.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">FACEBOOK APIs</h4>
+                    <p class="card-text"><b>We're providing free access to over 140 million places around the world, the same data that powers Facebook, Instagram, and Messenger. We've created Search, Current Place, and Place Information endpoints, so you can find places relevant to your users and provide helpful information about each location.</b></p>
+                    <a href="https://developers.facebook.com/" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+            <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="spotify1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title"> SPOTIFY APIs</h4>
+                    <p class="card-text"><b> You can use Spotify's Web API to discover music and podcasts, manage your Spotify library, control audio playback, and much more. Browse our available Web API endpoints using the sidebar at left, or via the navigation bar on top of this page on smaller screens.</b></p>
+                    <a href=" https://api.spotify.com/v1" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="nasa.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">  NASA APIs</h4>
+                    <p class="card-text"><b>The objective of this site is to make NASA date, including imagery, eminently accessible to application developers. This catalogue focuses on broadly useful and user friendly APIs and does not hold every NASA API.</b></p>
+                    <a href="https://api.nasa.gov/" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+            <div class="w-100 d-none d-lg-block d-xl-none"><!-- wrap every 4 on lg--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="shutterstock.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">ShutterStock API</h4>
+                    <p class="card-text"> The Shutterstock API provides access to Shutterstock's library of media, as well as information about customers' accounts and the contributors that provide the media. It allows customer platforms to search for media, view information and previews for the media, and license and download media.</p>
+                    <a href="https://api-reference.shutterstock.com/#overview-getting-started" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="meet.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">MeetUp API</h4>
+                    <p class="card-text"><b>The Meetup API supports the CORS specification which allows browser clients hosted on a domain other than api.meetup.com to communicate directly with the API. The API uses OAuth consumer redirect uris to validate a request's origin, so you must be using OAuth to benefit from CORS. The suggested OAuth authorization scheme is the OAuth2 Implicit flow, which is tailored for browsers.</b></p>
+                    <a href="https://www.meetup.com/meetup_api/?ref=apilist.fun" class="btn btn-dark">API</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="vimeo.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">VIMEO API</h4>
+                    <p class="card-text"><b> The Vimeo API is a powerful toolset that lets developers deeply integrate Vimeo into their apps and services. To get started with the API, you’ll need to create an API app and an authentication token. Visit our Developer Site for technical guides and reference documentation to help you get started.</b></p>
+                    <a href=" https://developer.vimeo.com/" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="watch.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">SKYWATCH(EARTHCATCH API)</h4>
+                    <p class="card-text"><b> Skywatch has the most powerful API for sourcing and processing satellites images. Get access to one of the largest of satellite data providers in the world and build your prototype at no cost with open data.</b></p>
+                    <a href="https://www.skywatch.com/satellite-imagery-api" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+            <div class="card mb-4">
+                <img class="card-img-top" src="weather.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">OpenWeather API</h4>
+                    <p class="card-text"><b>We are providing highly recognisable weather products that make working with the weather data a way easier. We work with millions of developers around a clock and believe that these benefits might be suitable for most of applications, up to the complex enterprise systems.</b></p>
+                    <a href="https://openweathermap.org/api" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="credit-card.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">MasterCard API</h4>
+                    <p class="card-text"><b> Built for developers by developers, our technology and solutions are simple to use. Discover a clear but flexible path to success with Mastercard Developers. Whatever your end goal we have what you need for a smooth journey</b></p>
+                    <<a href=" https://developer.mastercard.com/apis
+                    " class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+             <div class="w-100 d-none d-lg-block d-xl-none"><!-- wrap every 4 on lg--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="paypal.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Pay Pal API</h4>
+                    <p class="card-text"><b> Call the Payments API to authorize payments, capture authorized payments, refund payments that have already been captured, and show payment information. Use the Payments API in conjunction with the Orders API.</b></p>
+                    <a href="https://developer.paypal.com/docs/api/payments/v2/
+                    " class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-xl-block"><!-- wrap every 5 on xl--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="tiny.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">TinyPing API</h4>
+                    <p class="card-text"><b>The community has also created a large number of third-party add-ons using the Developer API. You can also create your own integration with any HTTP(S) client. The server will compress your image and respond with a URL where you can grab the result. The API compresses WebP, JPEG and PNG images. You only have to upload your source image and download the result. Everything else happens automatically.</b></p>
+                    <a href="https://tinypng.com/developers?ref=apilist.fun" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+            <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="gmail.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Gmail API</h4>
+                    <p class="card-text"><b>The Gmail API is a RESTful API that can be used to access Gmail mailboxes and send mail. For most web applications the Gmail API is the best choice for authorized access to a user's Gmail data and is suitable for various applications</b></p>
+                    <a href=" https://developers.google.com/gmail/api/" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="zoom.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Zoom API</h4>
+                    <p class="card-text"><b>The Zoom API is the primary means for developers to access a collection of resources from Zoom. Apps can read and write to the resources and mirror some of the most popular features available in Zoom Web Portal such as creating a new meeting, creating, adding and removing users, viewing reports and dashboards on various usage, and so on using the Zoom API. Depending on your app’s use case, you can choose from our various APIs and implement the features accordingly.</b></p>
+                    <a href=" https://marketplace.zoom.us/docs/api-reference/zoom-api" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+            <div class="w-100 d-none d-lg-block d-xl-none"><!-- wrap every 4 on lg--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="cal.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">GOOGLE CALENDER API</h4>
+                    <p class="card-text">  <b>Read and update calendars with several popular programming languages, such as Java, JavaScript, and Python. Millions of people use Google Calendar to track their events. The Calendar API lets you integrate your app with Google Calendar, creating new ways for you to engage your users.</b> </p>
+                    <a href="https://www.twilio.com/api" class="btn btn-dark">API</a>
+                </div>
+            </div>
+            <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="www.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">YouTube Analytics</h4>
+                    <p class="card-text"> <b> The YouTube Reporting and YouTube Analytics APIs let you retrieve YouTube Analytics data to automate complex reporting tasks, build custom dashboards, and much more.</b>
+                       <br> •    The Reporting API supports applications that can retrieve and store bulk reports, then provide tools to filter, sort, and mine the data.
+                       <br> •    The Analytics API supports targeted, real-time queries to generate custom reports in response to user interaction.</p>
+                    <a href="https://developers.google.com/youtube/analytics" class="btn btn-dark">API</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="card.js"></scriptnsrc>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
