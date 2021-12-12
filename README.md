@@ -25,8 +25,8 @@ You can find brief documented list of APIs in one place. With our project, we ca
 Open source
 
 # Prerequisites
-•	Developers/ Designers – Beginner
-•	No specific prerequisites
+- Developers/ Designers – Beginner
+- No specific prerequisites
 
 # Required for running the APIs
 1.	Are the apps required?  Yes
@@ -34,8 +34,8 @@ Open source
 3.	OS – Windows/ Mac/ Linux
 
 # If open source, how the user can contribute
-1.	Create your own issues and contribute to our project.
-2.	Customize the code as required, keeping the community guidelines in practice.
+- Create your own issues and contribute to our project.
+- Customize the code as required, keeping the community guidelines in practice.
 
 # Resources
 1.	Discord/Slack servers of respective Hackathon Organizers.
